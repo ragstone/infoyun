@@ -1,6 +1,8 @@
 ---
 layout: mypost
+route: webxiangmukuaisuqiehuan
 title: Web项目快速切换到Serverless
+author: ragstone
 categories: [小技巧]
 ---
 
