@@ -8,7 +8,7 @@ author: ragstone
 footerText: 'Copyright © 2021-2021 ragstone'
 
 # 这些不要动
-permalink: /posts/:year/:month/:day/:title.rsw
+permalink: /posts/:year:month:day-:title.html
 kramdown:
   auto_ids: true
   input: GFM
@@ -36,11 +36,11 @@ menu:
   - title: 首页
     url: /
   - title: 归类
-    url: /pages/categories.rsw
+    url: /pages/categories.html
   - title: 搜索
-    url: /pages/search.rsw
+    url: /pages/search.html
   - title: 关于
-    url: /pages/about.rsw
+    url: /pages/about.html
 
 # 点击页面文字冒出特效,不需要请设置为false
 extClickEffect: true
