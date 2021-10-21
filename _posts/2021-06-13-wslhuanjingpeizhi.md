@@ -4,6 +4,7 @@ key: wslhuanjingpeizhi
 title: WSL环境配置
 author: ragstone
 categories: [Linux]
+enableComments: true
 ---
 
 端午节在家搞了一套 NUC8，又重装了下系统，软件全都要重新下载。 Windows 下 的同步功能真的是差，系统设置还有各种软件全都要重新配置
