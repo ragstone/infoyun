@@ -23,13 +23,13 @@ baseurl: ''
 # 吐个槽地址，会在chat页面中重定向到该地址
 tucaoUrl: https://support.qq.com/products/289030
 
-# gittalk
-ext_gittalk: true
-gittalk_client_id: 6f6c97af7cc261b8adcc
-gittalk_client_secret: d4dd665d2458eb735fbab700457b6212bc347cd1
-gittalk_repo: info-comments
-gittalk_owner: ragstone
-gittalk_admin: ragstone
+# gitalk
+gitalk_enable: true
+gitalk_client_id: 6f6c97af7cc261b8adcc
+gitalk_client_secret: d4dd665d2458eb735fbab700457b6212bc347cd1
+gitalk_repo: infoyun-comments
+gitalk_owner: ragstone
+gitalk_admin: ragstone
 
 # 菜单
 menu:
