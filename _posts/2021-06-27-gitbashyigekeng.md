@@ -1,6 +1,6 @@
 ---
 layout: mypost
-route: gitbashyigekeng
+key: gitbashyigekeng
 title: Git Bash 的一个坑
 author: One
 categories: [踩坑]
