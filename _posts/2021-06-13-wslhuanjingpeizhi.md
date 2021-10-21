@@ -1,6 +1,6 @@
 ---
 layout: mypost
-route: wslhuanjingpeizhi
+key: wslhuanjingpeizhi
 title: WSL环境配置
 author: ragstone
 categories: [Linux]
