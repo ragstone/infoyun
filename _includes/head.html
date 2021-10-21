@@ -31,12 +31,6 @@
   {%- endif %}
   <link rel="prefetch" href="{{site.baseurl}}/static/xml/search.xml?t={{ buildAt }}">
   <link rel="prefetch" href="{{site.baseurl}}/static/js/search.js?t={{ buildAt }}">
-  
-  {%- if site.ext_gittalk %}
-  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css?t={{ buildAt }}">
-  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js?t={{ buildAt }}"></script>
-  {%- endif %}
-  
   <script>
     window.blog = {
       baseurl:"{{site.baseurl}}",
