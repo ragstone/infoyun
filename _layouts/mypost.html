@@ -16,7 +16,9 @@
     {% include ext-adsense.html -%}
   </div>
   {% endif %}
+  {% if page.enableComments %}
   {% include gitalk.html -%}
+  {% endif %}
 </div>
 {% include footer.html -%}
 {% include script.html -%}
