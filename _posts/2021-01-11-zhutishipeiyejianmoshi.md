@@ -11,6 +11,8 @@ enableComments: true
 
 本来打算把那个猫猫也移植过来的，但是感觉放上去有点违和就算了。是否开启默认是跟随系统的，顺便做了个小彩蛋把临时开关的开关藏在了 Logo 上面
 
+![毛毛](https://cn.bing.com/th?id=OHR.AtchafalayaMoss_ZH-CN6079994094_UHD.jpg&rf=LaDigue_UHD.jpg&w=3840&h=2160&c=8&rs=1&o=3&r=0)
+
 ## 实现方式
 
 CSS 的媒体查询是支持检测夜间模式的,因此只需要加个 CSS 适配下就可以了
