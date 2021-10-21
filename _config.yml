@@ -5,10 +5,10 @@ title: Ragstone World
 description: ragstone
 keywords: ragstone,Blog,Java,Html,JavaScript
 author: ragstone
-footerText: 'Copyright © 2016 ragstone'
+footerText: 'Copyright © 2021-2021 ragstone'
 
 # 这些不要动
-permalink: /posts/:year/:month/:day/:title.html
+permalink: /posts/:year_:month_:day/:route.html
 kramdown:
   auto_ids: true
   input: GFM
