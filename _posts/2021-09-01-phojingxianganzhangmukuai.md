@@ -1,6 +1,6 @@
 ---
 layout: mypost
-route: phojingxianganzhangmukuai
+key: phojingxianganzhangmukuai
 title: PHP镜像安装模块
 author: php
 categories: [Linux]
