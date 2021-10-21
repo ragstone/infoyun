@@ -8,11 +8,7 @@ categories: [Jekyll]
 
 最近 GitHub 上有人提 issues [暗黑模式 #11](https://github.com/TMaize/tmaize-blog/issues/11)，说来也巧我也正打算去适配夜间模式，于是花了一晚上的时间改了下，样式基本上是照抄的 GitHub
 
-![效果](preview.gif)
-
 本来打算把那个猫猫也移植过来的，但是感觉放上去有点违和就算了。是否开启默认是跟随系统的，顺便做了个小彩蛋把临时开关的开关藏在了 Logo 上面
-
-![猫猫](cat.gif)
 
 ## 实现方式
 
