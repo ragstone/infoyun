@@ -2,11 +2,11 @@
   <div id="gitalk-container"></div>
   <script>
     const gitalk = new Gitalk({
-      clientID: {{site.gittalk_client_id}},
-      clientSecret: {{site.gittalk_client_secret}},
-      repo: {{site.gittalk_repo}},
-      owner: {{site.gittalk_owner}},
-      admin: [{{site.gittalk_admin}}],
+      clientID: "{{site.gittalk_client_id}}",
+      clientSecret: "{{site.gittalk_client_secret}}",
+      repo: "{{site.gittalk_repo}}",
+      owner: "{{site.gittalk_owner}}",
+      admin: ["{{site.gittalk_admin}}"],
       id: location.pathname,
       distractionFreeMode: false
     })
