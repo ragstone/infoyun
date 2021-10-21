@@ -8,7 +8,7 @@ author: ragstone
 footerText: 'Copyright © 2021-2021 ragstone'
 
 # 这些不要动
-permalink: /posts/:year_:month_:day/:title.html
+permalink: /posts/:year:month:day/:title.html
 kramdown:
   auto_ids: true
   input: GFM
