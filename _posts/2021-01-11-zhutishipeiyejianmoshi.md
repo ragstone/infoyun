@@ -1,6 +1,6 @@
 ---
 layout: mypost
-route: zhutishipeiyejianmoshi
+key: zhutishipeiyejianmoshi
 title: 主题适配夜间模式
 author: ragstone
 categories: [Jekyll]
