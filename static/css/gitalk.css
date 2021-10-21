@@ -983,6 +983,7 @@
   padding: 0 1.125em;
   position: relative;
   text-decoration: none;
+  border-bottom: 0;
 }
 .gt-container .gt-popup .gt-action.is--active:before {
   content: '';
