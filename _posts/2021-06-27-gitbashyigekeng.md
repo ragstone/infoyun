@@ -4,6 +4,7 @@ key: gitbashyigekeng
 title: Git Bash 的一个坑
 author: One
 categories: [踩坑]
+enableComments: true
 ---
 
 调试自己写的一个 cli 程序时，发现从命令行读取的参数有问题，最后发现是一个 Git Bash 的一个 feature 导致的
