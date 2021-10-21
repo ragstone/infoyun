@@ -1,6 +1,6 @@
 ---
 layout: mypost
-route: vuedialogfengzhuang
+key: vuedialogfengzhuang
 title: Vue业务Dialog封装
 author: two
 categories: [前端]
