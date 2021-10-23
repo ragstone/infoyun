@@ -25,25 +25,17 @@ body::before {
  container
 ==================== */
 
-.l-Container {
-    padding-top: 24px;
-    width: 960px;
+.l-container--column2 {
+    margin: 30px auto 0;
+    max-width: 100%;
 }
-@media screen and (max-width: 768px) {
-    .l-Container {
-        padding: 24px;
-        width: 100%;
-    }
+@media all and (min-width: 1024px) {
+    .l-container--column2 {
+	 display: grid;
+	 grid-template-columns: minmax(0, 1fr) 286px;
+	 gap: 0 32px;
+     }
 } 
-
-.Collection__Wrapper{
-    padding-top: 35px;
-    padding-bottom: 65px;
-}
-
-.p-Heading--sub:nth-of-type(1){
-    margin-top: 30px;
-}
 
 /* ====================
  Collection
