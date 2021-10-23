@@ -71,20 +71,6 @@ body::before {
 .c-heading--sub.is-orange {
     color: #eb740e;
 }
-@media all and (min-width: 1024px) {
-    .p-group--header>.c-heading {
-        width: 620px;
-    }
-    .c-heading {
-        font-size: 36px;
-    }
-    .c-heading.is-orange {
-        background-image: url(/static/img/kr/common/title-orange-pc.svg);
-    }
-    .c-heading--sub {
-	font-size:32px;
-    }
-}
 .c-heading--sub {
     position: relative;
     width: 100%;
@@ -155,6 +141,20 @@ body::before {
     font-size: 14px;
 }
 
+@media all and (min-width: 1024px) {
+    .p-group--header>.c-heading {
+        width: 480px;
+    }
+    .c-heading {
+        font-size: 36px;
+    }
+    .c-heading.is-orange {
+        background-image: url(/static/img/kr/common/title-orange-pc.svg);
+    }
+    .c-heading--sub {
+	font-size:32px;
+    }
+}
 @media screen and (max-width: 1295px) {
     [class*="Collection__Card"]:not([class*="Collection__Card__"]):nth-child(3n+1) {
         margin-left: 0;
