@@ -12,7 +12,7 @@ body::before {
     width: 100%;
     height: 100vh;
 }
-@media screen and (min-width: 1024px) {
+@media all and (min-width: 1024px) {
 	body::before {
 		background-image: url(/static/img/kr/common/bg-50th-pc.svg);
 		background-repeat: no-repeat;
@@ -29,13 +29,6 @@ body::before {
     margin: 30px auto 0;
     max-width: 100%;
 }
-@media all and (min-width: 1024px) {
-    .l-container--column2 {
-	 display: grid;
-	 grid-template-columns: minmax(0, 1fr) 286px;
-	 gap: 0 32px;
-     }
-} 
 
 /* ====================
  Collection
