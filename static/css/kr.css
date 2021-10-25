@@ -26,7 +26,7 @@ body::before {
 ==================== */
 
 .l-container--column2 {
-    margin: 30px auto 0;
+    margin: 0 auto;
     max-width: 100%;
 }
 
@@ -150,6 +150,7 @@ body::before {
     }
     .c-heading.is-orange {
         background-image: url(/static/img/kr/common/title-orange-pc.svg);
+	background-size: 480px auto;
     }
     .c-heading--sub {
 	font-size:32px;
