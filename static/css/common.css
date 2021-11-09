@@ -131,6 +131,7 @@ input:-webkit-autofill {
   margin: 4px 9px;
   white-space: nowrap;
   user-select: auto;
+  font-weight: bold;
 }
 .footer {
   padding: 15px 0;
