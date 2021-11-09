@@ -13,6 +13,9 @@ html.dark ::-webkit-scrollbar-thumb {
 html.dark img {
   filter: brightness(0.8) contrast(1.2);
 }
+html.dark .header .menu a {
+  color: #637AFE;
+}
 html.dark .footer a {
   color: #58a6ff;
 }
@@ -24,6 +27,12 @@ html.dark .list-post li .date {
 }
 html.dark .list-post li .categories a {
   color: #8b949e;
+}
+html.dark .list-post li .title a {
+  color: #F24784;
+}
+html.dark .list-post > h2 {
+  color: #50BD6A;
 }
 html.dark .hover-underline:after {
   background-color: #c9d1d9;
