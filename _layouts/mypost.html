@@ -4,7 +4,7 @@
 <body ondragstart="return false;">
 {% include header.html -%}
 <div class="page page-post">
-  <div class="postArea">
+  <div class="post-area">
     <h1 class="title" id="{{ page.key }}">{{ page.title }}</h1>
     {% if page.date %}
     <div class="subtitle">{{ page.author }} 于 {{ page.date | date: "%Y-%m-%d" }} 发布</div>
@@ -13,7 +13,7 @@
       {{ content }}
     </div>
   </div>
-  <div class="commentsArea">
+  <div class="comments-area">
     {% if site.extAdsense -%}
     <div class="adsense" style="overflow: hidden;">
       {% include ext-adsense.html -%}
