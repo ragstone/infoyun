@@ -159,3 +159,9 @@
     margin: 15px 0;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  body {
+    max-width: 100%;
+  }
+}
