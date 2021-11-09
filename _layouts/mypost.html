@@ -12,7 +12,6 @@
     <div class="post">
       {{ content }}
     </div>
-    {% include footer.html -%}
   </div>
   <div class="comments-area">
     {% if site.extAdsense -%}
@@ -25,6 +24,7 @@
     {% endif %}
   </div>
 </div>
+{% include footer.html -%}
 {% include script.html -%}
 </body>
 </html>
