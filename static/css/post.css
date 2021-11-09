@@ -164,4 +164,19 @@
   body {
     max-width: 100%;
   }
+  .page-post {
+    position: relative;
+  }
+  .page-post .post-area{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% - 580px);
+  }
+  .page-post .comments-area{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 560px;
+  }
 }
