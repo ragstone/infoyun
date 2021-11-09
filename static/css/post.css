@@ -165,18 +165,14 @@
     max-width: 100%;
   }
   .page-post {
-    position: relative;
+    display: table;
   }
   .page-post .post-area{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: calc(100% - 580px);
+    display: table-cell;
   }
   .page-post .comments-area{
-    position: absolute;
-    top: 0;
-    right: 0;
+    display: table-cell;
     width: 560px;
+    padding-left: 20px;
   }
 }
