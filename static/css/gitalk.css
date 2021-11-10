@@ -729,6 +729,9 @@
 }
 .gt-container a {
   color: #6190e8;
+}
+.gt-container a,
+html.dark .gt-container a {
   border: 0;
 }
 .gt-container a:hover {
