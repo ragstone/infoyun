@@ -52,9 +52,6 @@ dash:
   #avatar_source: local
   #avatar_path: /assets/avatar.png
 
-# Build settings
-theme: jekyll-dash
-
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
