@@ -7,7 +7,7 @@ description: > # this means to ignore newlines until "show_exerpts:"
   Google search results) and in your feed.xml site description.
 show_excerpts: false # set to true to show excerpts on the homepage
 
-paginate: 1
+paginate: 10
 paginate_path: "/blog/page:num/"
 
 tag_permalink_style: pretty
@@ -44,13 +44,16 @@ dash:
   animation_speed: 50
 
   # wether to enable Right-to-Left support or not
-  rtl: false
+  rtl: true
 
   # Replaces the default avatar provider (gravatar)
   #avatar_source: github
   #github_username: bitbrain
   #avatar_source: local
   #avatar_path: /assets/avatar.png
+  
+# Build settings
+theme: jekyll-dash
 
 plugins:
  - jekyll-feed
